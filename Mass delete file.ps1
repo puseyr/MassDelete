@@ -1,0 +1,1 @@
+﻿Get-ChildItem *.asd -Recurse | foreach { Remove-Item -Path $_.FullName }
